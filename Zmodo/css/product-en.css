@@ -1,0 +1,115 @@
+/*CSS Document
+	Author:	guosl
+*/
+
+.tab-content .tab-pane .temp h2{ font-size:32px; margin-bottom:20px;}
+.tab-content .tab-pane .temp p{ line-height:24px; font-size:14px;}
+.tab-content .function .temp .buy-btn{ border:none; background:#f8b214; color:#fff; font-size:16px; padding:0 40px; height:40px; line-height:40px; border-radius:40px; margin-top:10px; }
+.tab-content .function .temp .buy-btn strong{ margin-right:10px;}
+/*product-en*/
+.spoe i{font-style:normal;}
+.spoe{ color: #8c8c8c; line-height: 24px; font-size: 14px;}
+.spoe .warp{ max-width:1042px !important;}
+.tab-pane .temp h2{ font-size: 35px; margin-bottom: 10px;}
+.tab-content .spoe .temp.a .xinfo{ margin:20px 0;}
+.spoe .temp.a .xinfo{ color: #3a3a3a; font-size: 14px;}
+.spoe .temp.a .xinfo span.c3{ background-position: -174px -2415px;}
+.spoe .temp.c .info { padding: 50px 0 0 10px;}
+.spoe .temp.e{ padding:0; }
+.spoe .temp.f{ background: #eaffff; text-align: left; border:0; padding:0 10px}
+.spoe .temp.f .title{ color: #333333 !important; font-size: 14px; margin-bottom: 10px;}
+.tab-content .spoe .temp.e .focus{ margin-bottom:0px; border: 0;}     
+ 
+.minipc .warp{ max-width:1008px; margin:0 auto;}
+.minipc .mok1{ text-align:center; }
+.minipc .mok1 .list{ margin-top:30px;   margin-bottom:20px; line-height:20px;  text-align:left;}
+.minipc .mok1 .list li span{ display:block; width:35px; height:30px; background:url(../images/uploads/product/ico_1215.png) no-repeat; float:left;}
+.minipc .mok1 .list li span.a{ background-position:0 0;}
+.minipc .mok1 .list li span.b{ background-position:0 -35px;}
+.minipc .mok1 .list li span.c{ background-position:0 -70px;}
+.minipc .mok1 .list li span.d{ background-position:0 -104px;}
+.minipc .mok2{ background:url(../images/uploads/product/bg2_1215.jpg) no-repeat #000 center top; text-align:center; color:#8c8c8c; }
+.tab-content .tab-pane .minipc .mok2 h2,.tab-content .tab-pane .minipc .mok5 h2{ color:#fff;}
+.minipc .mok3{ background:url(../images/uploads/product/bg3_1215.jpg) no-repeat center top; text-align:center; }
+.minipc .mok3 .warp{ padding-top:70px; color:#6a6a6a;}
+.tab-content .tab-pane .mok3{ padding-bottom:0;}
+.minipc .mok4{ background:url(../images/uploads/product/bg4_1215.jpg) no-repeat center top; text-align:center; height:630px; color:#8c8c8c; }
+.minipc .mok5{ background:url(../images/uploads/product/bg5_1215.jpg) no-repeat center top #499b94; height:390px; color:#fff; }
+.minipc .mok5 .text{ width:455px; float:right;}
+.minipc .mok5 p{ margin-top:20px;}
+.minipc .mok6{ background:#efeff0;}
+.minipc .mok7 .img{ margin-bottom:30px; text-align:center;}
+.minipc .mok7 .img img{ display:inline-block;}
+.tab-content .tab-pane .minipc .mok7 .bt{ color:#333333; font-size:18px; margin-bottom:20px; min-height:45px;}
+.tab-content .tab-pane .minipc .mok7 .text{ color:#8c8c8c; font-size:12px;}
+.tab-content .tab-pane .minipc .mok7 p{ padding:0 60px;}
+.minipc .mok8{ background:#efeff0;}
+.minipc .mok8 p,.minipc .mok9 p{ margin-bottom:10px;}
+.tab-content .tab-pane .minipc .mok8 .bt,.tab-content .tab-pane .minipc .mok9 .bt{ color:#333333; font-size:18px; padding-top:10px;}
+.tab-content .tab-pane .minipc  .mok8 .text,.tab-content .tab-pane .minipc  .mok9 .text{ color:#8c8c8c; font-size:12px;}
+
+.p6-7 .warp{ max-width:1240px !important; margin:0 auto;}
+.p6-7 .mok1{ text-align:center;}
+.p6-7 .mok1 .warp{ max-width:1008px !important; }
+.p6-7 .mok1 p{ color:#8c8c8c;}
+.p6-7 .mok1 .list{ margin-top:30px;   margin-bottom:20px; line-height:20px;  text-align:left;}
+.p6-7 .mok1 .list li span{ display:block; width:35px; height:30px; background:url(../images/uploads/product/ico_1216.png) no-repeat; float:left;}
+.p6-7 .mok1 .list li span.a{ background-position:0 0;}
+.p6-7 .mok1 .list li span.b{ background-position:0 -60px;}
+.p6-7 .mok1 .list li span.c{ background-position:0 -128px;}
+.tab-content .tab-pane .p6-7 .mok2{ background:#f3f3f3; text-align:center; padding-bottom:0;}
+.p6-7 .mok2 p{ color:#8c8c8c;}
+.p6-7 .mok2 .list{ margin:40px 0;}
+.p6-7 .mok2 .list .box{ border:3px dotted #8c8c8c; padding:10px; border-radius:20px;}
+.p6-7 .mok2 .list .box span{ color:#2a2a2a; font-size:100px; font-weight:bold;}
+.p6-7 .mok2 .list .box i{ font-style:normal;color:#505050; font-size:100px; font-weight:bold;}
+.p6-7 .mok2 .list .box .bt{ color:#444; font-weight:bold;}
+.tab-content .tab-pane .p6-7 .mok3 .bt{ color:#333333; font-size:20px; margin-top:30px;}
+.p6-7 .mok3 .text{ color:#8c8c8c;}
+.p6-7 .mok4 { background:#f3f3f3; text-align:center; color:#8c8c8c;}
+.p6-7 .mok4 .mot { margin-top:30px; border-bottom:1px dotted #cacaca; padding-bottom:20px; margin-bottom:20px; text-align:left;}
+.p6-7 .mok4 .mot .text{ width:80%; margin:10px auto; }
+.p6-7 .mok4 .mot span{ color:#333333; font-size:20px; font-weight:bold;}
+.p6-7 .mok4 .mob{ text-align:left; color:#222222;}
+.p6-7 .mok4 .mob .table{ margin-top:20px;}
+.p6-7 .mok4 .mob .table td{ padding:10px; border:1px solid #dadada; text-align:center;}
+.p6-7 .mok4 .mob .note{ background:url(../images/uploads/product/img16.jpg) no-repeat; width:300px; height:310px; padding:60px 20px; margin-top:40px;}
+.p6-7 .mok4 .mob .note p{ font-size:12px;}
+.p6-7 .mok4 .mob .note .bt{ font-weight:bold;}
+.p6-7 .mok5{ background:#f3f3f3;}
+
+.p6-7 .mok5 p.bt{  min-height:40px; line-height:30px; font-size:20px; margin-top:30px;}
+.p6-7 .mok5 .mot .text{ color:#858585;}
+.p6-7 .mok5 .list{ margin-top:30px;}
+.p6-7 .mok5 .list li .bt{ background:#75cecd; padding:10px; color:#fff; font-size:14px; line-height:15px; min-height:68px; max-width:254px;}
+.p6-7 .mok5 .list li .bt span{ display:block; background:#27b3b1; padding:10px 12px; border-radius:20px; margin-right:10px; float:left; font-size:20px;}
+.p6-7 .mok5 .list li .bt p{ float:left; width:80%;}
+.p6-7 .mok5 .mob .text{ color:#858585; margin-bottom:20px;}
+.p6-7 .mok6 h2{ text-align:center;}
+#function .p6-7 .mok6  #banner-con2.banner-con{ height:600px;}
+.p6-7 .mok6 .arrowButton,.p6-7 .mok6 .buttonArea{ display:none;}
+.p6-7 .mok8 p.bt{ font-size:20px;}
+.p6-7 .mok8 .img{ margin-top:20px;}
+.p6-7 .mok9,.p6-7 .mok10,.p6-7 .mok11{ text-align:center;}
+.p6-7 .mok10 .list{ margin-top:20px;}
+
+@media (min-width: 1040px){
+.minipc .mok2 .img{ position:relative; margin-top:30px; height:400px;}
+.minipc .mok2 img{ position:absolute; left:100px; }
+.p6-7 .mok5 .mot{ background:url(../images/uploads/product/img17.jpg) no-repeat; min-height:484px;}
+.p6-7 .mok5 p.bt{ background:url(../images/uploads/product/ico_bt1.png) no-repeat; padding-left:40px;}
+.p6-7 .mok5 .mot .mt10{ margin-top:300px;}
+.p6-7 .mok7{ background:url(../images/uploads/product/img25.jpg) no-repeat center bottom; height:550px; }
+	}
+
+@media (max-width: 767px){
+.minipc .mok3 .warp{ padding-top:0px;}
+.minipc .mok6 img{ margin-top:20px;}
+.tab-content .tab-pane .minipc .mok7 li{ margin-bottom:40px;}
+.tab-content .tab-pane .minipc .mok7 .text,.tab-content .tab-pane .minipc  .mok8 .text,.tab-content .tab-pane .minipc  .mok9 .text{  font-size:14px;}
+.tab-content .tab-pane .minipc .mok7 p{ padding:0px;}
+.p6-7 .mok2 .list li{ margin-bottom:20px;}
+.p6-7 .mok2 .list .box span,.p6-7 .mok2 .list .box i{  font-size:80px; font-weight:bold;}
+.p6-7 .mok5 .list li{ margin-bottom:20px;}
+	}
+	

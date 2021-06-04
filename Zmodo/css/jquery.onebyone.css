@@ -1,0 +1,423 @@
+
+#main-banner .f2,#main-banner .f3{ display:none;}
+.buttonArea{
+position: absolute;
+text-align:center;
+width:100%;  
+margin-top:10px;  
+left:0;
+}                     
+.buttonCon{  
+width:100%;      
+}
+.buttonCon .theButton {
+	display: inline-block;
+	background:#cccccc;
+	border-radius:3px;
+	color:#fff;
+	width:115px;
+	height:35px;
+	line-height:35px;
+	text-align:center;
+	margin: 3px;
+	cursor:pointer;
+}
+.buttonArea a.active {
+	background:#52c1bd;
+}             
+
+.arrowButton{    
+	cursor: pointer;  
+}            
+.arrowButton .prevArrow{
+	background: url(../images/bg/prev.png) no-repeat; 
+	width: 40px;
+	height: 80px;      
+	position: absolute;     
+	display:none;
+} 
+.arrowButton .nextArrow{                 
+	background: url(../images/bg/next.png) no-repeat;
+	width: 40px;
+	height: 80px;
+	position: absolute;  
+	display:none;   	
+}  
+
+#index-focus{ position:relative;  overflow:hidden;}
+#index-focus .arrowButton .prevArrow{
+	background: url(../images/bg/prev2.png) no-repeat left top; 
+	left:20px;
+	top:45%;
+	display:none;
+}
+#index-focus .arrowButton .nextArrow{                 
+	background: url(../images/bg/next2.png) no-repeat right top; 	
+	right:20px;
+	top:45%;
+	display:none;
+} 
+#index-focus .buttonArea{
+ margin-top:0;
+ bottom:10px;
+}
+#index-focus .buttonCon .theButton{
+	width: 20px;
+	height: 22px;
+	background: url(../images/bg/circlebutton.png) no-repeat;
+}
+#index-focus .buttonArea a.active {
+	background-position: 0 -22px;
+}  
+
+#index-focus .bigImage{
+ display: block;
+  height: auto;
+  max-width: 100%;
+} 
+
+          
+#index-focus .f1 span{ position:absolute; right:5%; top:10%; width:30%;}
+#index-focus .f1 span img{ widht:100%;}
+#index-focus .f2 .text1{ position:absolute; left:5%; top:6%; font-size:40px; color:#333; }
+#index-focus .f2 .text2{ position:absolute; left:5%; top:17%; font-size:25px; color:#444; }
+#index-focus .f3 span{ width:16%;  position:absolute; }
+#index-focus .f3 span.img1{ left:5%; bottom:5%;}
+#index-focus .f3 span.img2{ left:11%; bottom:50%;}
+#index-focus .f3 span.img3{ left:30%; top:5%;}
+#index-focus .f3 span.img4{ right:30%; top:5%;}
+#index-focus .f3 span.img5{ right:11%; bottom:50%;}
+#index-focus .f3 span.img6{ right:5%; bottom:5%;}
+
+.animate0{
+   	-webkit-animation-duration:1s;
+	-webkit-animation-delay: .2s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-fill-mode: both;
+	-moz-animation-duration:1s;
+	-moz-animation-delay: .2s;
+	-moz-animation-timing-function: ease;
+	-moz-animation-fill-mode: both;
+	-ms-animation-duration:1s;
+	-ms-animation-delay: .2s;
+	-ms-animation-timing-function: ease;
+	-ms-animation-fill-mode: both;
+	animation-duration:1s;
+	animation-delay: .2s;
+	animation-timing-function: ease;
+	animation-fill-mode: both;
+}
+
+.animate1{
+   	-webkit-animation-duration:1s;
+	-webkit-animation-delay: .4s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-fill-mode: both;
+	-moz-animation-duration:1s;
+	-moz-animation-delay: .4s;
+	-moz-animation-timing-function: ease;
+	-moz-animation-fill-mode: both;
+	-ms-animation-duration:1s;
+	-ms-animation-delay: .4s;
+	-ms-animation-timing-function: ease;
+	-ms-animation-fill-mode: both;
+	animation-duration:1s;
+	animation-delay: .4s;
+	animation-timing-function: ease;
+	animation-fill-mode: both;
+}
+
+.animate2{
+   	-webkit-animation-duration:1s;
+	-webkit-animation-delay: .6s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-fill-mode: both;
+	-moz-animation-duration:1s;
+	-moz-animation-delay: .6s;
+	-moz-animation-timing-function: ease;
+	-moz-animation-fill-mode: both;
+	-ms-animation-duration:1s;
+	-ms-animation-delay: .6s;
+	-ms-animation-timing-function: ease;
+	-ms-animation-fill-mode: both;
+	animation-duration:1s;
+	animation-delay: .6s;
+	animation-timing-function: ease;
+	animation-fill-mode: both;
+}
+
+.animate3{
+   	-webkit-animation-duration:1s;
+	-webkit-animation-delay: .8s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-fill-mode: both;
+	-moz-animation-duration:1s;
+	-moz-animation-delay: .8s;
+	-moz-animation-timing-function: ease;
+	-moz-animation-fill-mode: both;
+	-ms-animation-duration:1s;
+	-ms-animation-delay: .8s;
+	-ms-animation-timing-function: ease;
+	-ms-animation-fill-mode: both;
+	animation-duration:1s;
+	animation-delay: .8s;
+	animation-timing-function: ease;
+	animation-fill-mode: both;
+}
+
+.animate4{
+   	-webkit-animation-duration:1s;
+	-webkit-animation-delay: 1s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-fill-mode: both;
+	-moz-animation-duration:1s;
+	-moz-animation-delay: 1s;
+	-moz-animation-timing-function: ease;
+	-moz-animation-fill-mode: both;
+	-ms-animation-duration:1s;
+	-ms-animation-delay: 1s;
+	-ms-animation-timing-function: ease;
+	-ms-animation-fill-mode: both;
+	animation-duration:1s;
+	animation-delay: 1s;
+	animation-timing-function: ease;
+	animation-fill-mode: both;
+}
+
+.animate5{
+   	-webkit-animation-duration:1s;
+	-webkit-animation-delay: 1.2s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-fill-mode: both;
+	-moz-animation-duration:1s;
+	-moz-animation-delay: 1.2s;
+	-moz-animation-timing-function: ease;
+	-moz-animation-fill-mode: both;
+	-ms-animation-duration:1s;
+	-ms-animation-delay: 1.2s;
+	-ms-animation-timing-function: ease;
+	-ms-animation-fill-mode: both;
+	animation-duration:1s;
+	animation-delay: 1.2s;
+	animation-timing-function: ease;
+	animation-fill-mode: both;
+}
+.animate6{
+   	-webkit-animation-duration:1s;
+	-webkit-animation-delay: 1.4s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-fill-mode: both;
+	-moz-animation-duration:1s;
+	-moz-animation-delay: 1.4s;
+	-moz-animation-timing-function: ease;
+	-moz-animation-fill-mode: both;
+	-ms-animation-duration:1s;
+	-ms-animation-delay: 1.4s;
+	-ms-animation-timing-function: ease;
+	-ms-animation-fill-mode: both;
+	animation-duration:1s;
+	animation-delay: 1.4s;
+	animation-timing-function: ease;
+	animation-fill-mode: both;
+}
+.animate7{
+   	-webkit-animation-duration:1s;
+	-webkit-animation-delay: 1.6s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-fill-mode: both;
+	-moz-animation-duration:1s;
+	-moz-animation-delay: 1.6s;
+	-moz-animation-timing-function: ease;
+	-moz-animation-fill-mode: both;
+	-ms-animation-duration: .6s;
+	-ms-animation-delay: 1.6s;
+	-ms-animation-timing-function: ease;
+	-ms-animation-fill-mode: both;
+	animation-duration: .6s;
+	animation-delay: 1.6s;
+	animation-timing-function: ease;
+	animation-fill-mode: both;
+}
+
+
+/*focus*/
+#function .banner-con{margin:0 auto;	margin-top: 30px; max-width: 780px; height: 500px;  position: relative;}
+#function .banner{
+	position: absolute;
+}
+#function .oneByOne1{
+	position: relative;
+	overflow: hidden;
+	margin:0 auto;
+	
+}   
+
+#function .banner .oneByOne_item{
+	position: absolute;
+	overflow: hidden;  
+	display: none;
+}  
+
+#function #banner-con2.banner-con{ height: 700px;  background:url(../images/bg/prodetail_focus.png) no-repeat center top; }
+#function #banner-con2 .oneByOne1{height:600px;}
+#function #banner-con2 .oneByOne1 .oneByOne_item{  height:600px;}
+
+#function #banner-con2 .oneByOne1 .img img{ width:234px; height:353px; position:absolute;}
+#function #banner-con2 .oneByOne1 .ximg img{ width:300px;height:280px; position:absolute;  top:80px;}
+#function #banner-con2 .oneByOne1 .text{ color:#333333; font-size:14px; position:absolute; right:0;   top:60px; background:url(../images/bg/prodetail_focus_x.png) no-repeat left top; padding-left:10px; padding-top:60px; width:190px;}
+#function #banner-con2 .oneByOne1 .text strong{ font-size:20px; font-weight:normal;}
+
+/* change the width of the slider in your own responsive media query */
+
+@media only screen and (min-width: 1250px) {
+#function .focus{
+background:url(../images/bg/prodetail_fcous_bg.jpg) no-repeat center top;
+}
+#function #banner-con .oneByOne1 img{
+		width: 730px !important;
+	}
+	#function #banner-con{max-width: 780px; height: 500px; background:url(../images/bg/paven.png) no-repeat; padding:36px 25px 0 25px;  *padding:35px 0px 0 0px; padding:35px 0px 0 0px\0;}
+	#function #banner-con .oneByOne1{
+	width: 730px;
+	height: 415px;   
+	
+}   
+
+#function .banner .oneByOne_item{
+	width: 730px;
+	height: 415px;  
+} 
+.arrowButton .prevArrow{
+display:block;
+	top: 200px;	 
+	left: -200px;        
+} 
+.arrowButton .nextArrow{     
+display:block;            
+	top: 200px;
+	right:-200px;              
+} 
+#function #banner-con2 .oneByOne1 .img img{  left:285px; top:100px;}
+}
+@media only screen and (min-width: 768px) and (max-width: 1250px) {
+#function #banner-con2 .oneByOne1 .img img{  left:285px; top:100px;}
+#function .focus{
+background:url(../images/bg/prodetail_fcous_bg.jpg) no-repeat center top;
+}
+	#function #banner-con .oneByOne1 img{
+		width: 730px !important;
+	}
+	#function #banner-con{max-width: 780px; height: 500px; background:url(../images/bg/paven.png) no-repeat; padding:36px 25px 0 25px;  *padding:35px 0px 0 0px; padding:35px 0px 0 0px\0;}
+	#function .oneByOne1{
+	width: 730px;
+	height: 415px;   
+	
+}   
+
+#function .banner .oneByOne_item{
+	width: 730px;
+	height: 415px;  
+} 
+#function #banner-con2 .oneByOne1 .img img{  top:120px; left:260px;}
+#function #banner-con2 .oneByOne1 .ximg img{ width:150px;height:140px;   top:290px; left:150px;}
+#function #banner-con2 .oneByOne1 .text{ left:0px; top:0px; background:none; padding-left:0px; padding-top:0px; width:300px;}	   
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+	#function .oneByOne1,#function .oneByOne_item,#function #banner-con .oneByOne1 img{
+		width: 460px !important;
+	}	
+	#function #banner-con .oneByOne1{
+
+	height: 265px;   
+	
+}   
+
+#function #banner-con .oneByOne_item{
+	height: 265px;  
+}  
+.arrowButton .prevArrow{
+	top: 100px;	 
+	left: 0px;        
+} 
+.arrowButton .nextArrow{                 
+	top: 100px;
+	right:0px;              
+} 
+#function #banner-con{height: 300px;}
+
+#function #banner-con2.banner-con{ background: url(../images/bg/prodetail_focus.png) no-repeat center 40px;}
+#function #banner-con2 .oneByOne1 .img img{  top:120px; left:125px;}
+#function #banner-con2 .oneByOne1 .ximg img{ width:150px;height:140px;   top:290px; left:50px;}
+#function #banner-con2 .oneByOne1 .text{ left:0; top:0px; background:none; padding-left:0px; padding-top:0px; width:300px;}	
+
+#index-focus .f2 .text1{ font-size:18px;}
+#index-focus .f2 .text2{  font-size:12px; top:20%; width:150px;}
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+	#function .oneByOne1, #function .oneByOne_item,#function #banner-con .oneByOne1 img{
+		width: 300px !important;
+	}
+	#function #banner-con{height: 250px;}
+		#function #banner-con .oneByOne1{
+	height: 160px; 
+#function #banner-con2 .oneByOne1 .img img{ width:234px; height:353px; position:absolute; top:120px; left:35px;}
+#function #banner-con2 .oneByOne1 .ximg img{ width:150px;height:140px; position:absolute;  top:290px;}
+#function #banner-con2 .oneByOne1 .text{ color:#333333; font-size:14px; left:0; top:0px; background:none; padding-left:0px; padding-top:0px; width:300px;}
+#function #banner-con2 .oneByOne1 .text strong{ font-size:18px; font-weight:normal;}		
+
+#function #banner-con2.banner-con{ background: url(../images/bg/prodetail_focus.png) no-repeat center 40px;}
+#function #banner-con2 .oneByOne1 .img img{  top:120px; left:45px;}
+#function #banner-con2 .oneByOne1 .ximg img{ width:150px;height:140px;   top:290px;}
+#function #banner-con2 .oneByOne1 .text{ left:0; top:0px; background:none; padding-left:0px; padding-top:0px; width:300px;}		
+}   
+
+#function #banner-con .banner .oneByOne_item{
+	height: 160px;  
+}  
+
+#function #banner-con2.banner-con{ background: url(../images/bg/prodetail_focus.png) no-repeat center 40px;}
+#function #banner-con2 .oneByOne1 .img img{  top:120px; left:45px;}
+#function #banner-con2 .oneByOne1 .ximg img{ width:150px;height:140px;   top:290px;}
+#function #banner-con2 .oneByOne1 .text{ left:0; top:0px; background:none; padding-left:0px; padding-top:0px; width:300px;}	
+
+#index-focus{ height:200px;}
+#index-focus .bigImage{ max-width:150%;}
+#index-focus .img-responsive{ max-width:120%;}
+#index-focus .f1 span{ top:10%; right:10%;}
+#index-focus .f2 .text1{ font-size:18px;}
+#index-focus .f2 .text2{  font-size:12px; top:20%; width:150px;}
+#index-focus .f3 .bigImage{ position:relative; left:-25%;}
+}
+@media only screen and (min-width: 300px) and (max-width: 320px) {
+	#function .oneByOne1,#function  .oneByOne_item,#function #banner-con .oneByOne1 img{
+		width: 280px !important;
+	}
+	#function #banner-con{height: 250px;}
+	#function #banner-con .oneByOne1{
+	height: 160px;   
+	
+}   
+
+#function #banner-con .oneByOne_item{
+	height: 160px;  
+
+} 
+#function #banner-con2.banner-con{ background: url(../images/bg/prodetail_focus.png) no-repeat center 40px;}
+
+#function #banner-con2 .oneByOne1 .img img{  top:120px; left:35px;}
+#function #banner-con2 .oneByOne1 .ximg img{ width:150px;height:140px;   top:290px;}
+#function #banner-con2 .oneByOne1 .text{ left:0; top:0px; background:none; padding-left:0px; padding-top:0px; width:300px;}
+
+#index-focus{ height:200px;}
+#index-focus .bigImage{ max-width:150%;}
+#index-focus .img-responsive{ max-width:120%;}
+#index-focus .f1 span{ top:10%; right:10%;}
+#index-focus .f2 .text1{ font-size:18px;}
+#index-focus .f2 .text2{  font-size:12px; top:20%; width:150px;}
+#index-focus .f3 .bigImage{ position:relative; left:-25%;}
+}
+                      
+

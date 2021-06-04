@@ -1,0 +1,1097 @@
+﻿<!DOCTYPE HTML>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<title>天涯明月刀直播间</title>
+<link rel="stylesheet" type="text/css" href="../css/live.css">
+</head>
+<body class="">
+<div class="wrap">
+
+	<!--播放器外框-->
+	<div class="live-box">
+
+		<div class="box-head">
+
+			<div class="top">
+				<div class="con">
+					<div class="logo"><i class="spr logo-text font-hide">天涯明月刀</i></div>
+					<div class="more">
+						<a class="btn btn-small" href="#"><i class="spr font-hide i-small">缩小</i></a>
+						<a class="btn btn-close" href="#"><i class="spr font-hide i-close">关闭</i></a>
+					</div>
+				</div>
+			</div>
+
+			<div class="bar">
+				<div class="map">
+					<span>直播</span><i class="spr i-arrow-map"></i><span>全部直播</span><i class="spr i-arrow-map"></i><span>直播间</span>
+				</div>
+				<div class="user-info">
+					<div class="ele status">
+						<i class="spr font-hide icon-marquis">侯爵</i>
+						<!--
+						icon-king 国王
+						icon-duke 公爵
+						icon-viscont 子爵
+						icon-marquis 侯爵
+						icon-baron 男爵
+						-->
+					</div>
+					<p class="ele avatar"><img src="../img/temp/user.jpg" alt="DJ巍巍主播gsl"></p>
+					<p class="ele ellipsis name">DJ巍巍主播gsl</p>
+				</div>
+				<div class="user-attention"><a href="#"><i class="spr i-attention"></i>我关注的</a></div>
+				<div class="search-box">
+					<div class="search">
+						<p class="search-hint">搜主播</p><!--文本框获取焦点后隐藏，失去焦点显示-->
+						<input type="text" class="text"  value="" >
+						<button class="btn"><i class="spr i-searh"></i></button>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="box-contant">
+
+			<!--直播间-->
+			<div class="live-room clearfix">
+
+				<div class="main-box">
+
+					<div class="main">
+
+						<div class="main-head clearfix">
+							<div class="con">
+								<div class="player-avatar"><img src="../img/temp/user.jpg" alt=""></div>
+								<div class="player-info">
+									<div class="top clearfix">
+										<span class="title ellipsis">天涯明月刀集锦</span>
+										<a href="#" class="repot">[举报]</a>
+										<a href="javascript:;" class="manage">房间管理</a><!--非主播或管理界面 隐藏 addClass hide-->
+									</div>
+									<div class="text clearfix">
+										<p class="ele name ellipsis">主播：<span>斗鱼战神</span></p>
+										<p class="ele online">在线：<span class="num">21323</span></p>
+										<p class="ele fans">粉丝：<span>1244</span></p>
+									</div>
+								</div>
+								<div class="player-btn">
+									<div class="btn btn-attention">
+										<a href="#" class="spr-btn"><span>关注</span></a>
+									</div>
+									<div class="btn btn-share">
+										<a href="javascript:;" class="spr-btn"><span>分享</span></a>
+										<!--分享弹框-->
+										<div class="share-box">
+											<div class="share-list clearfix">
+												<a href="#" class="btn share-wechat">
+													<i class="spr icon-wechat"></i>
+													<span class="text">微信好友</span>
+												</a>
+												<a href="#" class="btn share-qq">
+													<i class="spr icon-qq"></i>
+													<span class="text">QQ好友</span>
+												</a>
+												<a href="#" class="btn share-qzone">
+													<i class="spr icon-qzone"></i>
+													<span class="text">QQ空间</span>
+												</a>
+												<a href="#" class="btn share-link">
+													<i class="spr icon-link"></i>
+													<span class="text">复制链接</span>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="main-contant">
+
+							<!--播放器-->
+							<div class="video">
+								<iframe id="ifrVideo" width="100%" height="100%" scrolling="no" frameborder="0" allowtransparency="true" src="http://qt.qq.com/webqt/player.html">
+                       			 </iframe>
+							</div>
+
+						</div>
+
+						<div class="main-foot">
+							<div class="con">
+								<div class="pay">
+									<a href="#" class="spr-btn btn-pay"><span>充值</span></a>
+									<p class="text">
+										<i class="spr i-t"></i>
+										<span class="num">4521</span>
+									</p>
+								</div>
+								<div class="gift">
+									<ul class="gift-list">
+										<li class="ele"><!--展示弹框 addClass active-->
+											<a href="#" class="btn">
+												<span class="num ellipsiss">10</span>
+												<p class="pic"><img src="../img/gift/gift-hua.png" alt="花"></p>
+											</a>
+											<div class="gift-wrap">
+												<div class="gift-box clearfix">
+													<i class="spr i-arrow-gift"></i>
+													<p class="pic"><img src="../img/gift/gift-hua.png" alt="花"></p>
+													<div class="info">
+														<p class="title">
+															<span class="name">花</span>
+															<span class="num">100T豆</span>
+														</p>
+														<p class="text">主播魅力值<span class="num">+200</span></p>
+														<div class="more clearfix">
+															<div class="select">
+																<div class="hd">
+																	<input type="text" value="输入数量" class="text">
+																	<span class="btn"><i class="spr i-arrow-select"></i></span>
+																</div>
+																<div class="bd">
+																	<ul class="list">
+																		<li>
+																			<a href="javascript:;">
+																				<span class="num">10</span>
+																				 十全十美
+																			</a>
+																		</li>
+																		<li>
+																			<a href="javascript:;">
+																				<span class="num">33</span>
+																				 想要亲亲
+																			</a>
+																		</li>
+																		<li>
+																			<a href="javascript:;">
+																				<span class="num">66</span>
+																				 顺顺利利
+																			</a>
+																		</li>
+																		<li>
+																			<a href="javascript:;">
+																				<span class="num">199</span>
+																				 长长久久
+																			</a>
+																		</li>
+																		<li>
+																			<a href="javascript:;">
+																				<span class="num">521</span>
+																				 真的爱你
+																			</a>
+																		</li>
+																		<li>
+																			<a href="javascript:;">
+																				<span class="num">1214</span>
+																				 一生一世
+																			</a>
+																		</li>
+																	</ul>
+																</div>
+															</div>
+															<a href="#" class="btn-gift">赠送</a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li class="ele">
+											<a href="#" class="btn">
+												<span class="num ellipsis hide">10</span>
+												<p class="pic"><img src="../img/gift/gift-xin.png" alt="心"></p>
+											</a>
+											<div class="gift-wrap">
+												<div class="gift-box clearfix">
+													<i class="spr i-arrow-gift"></i>
+													<p class="pic"><img src="../img/gift/gift-xin.png" alt="心"></p>
+													<div class="info">
+														<p class="title">
+															<span class="name">心心心</span>
+															<span class="num">100T豆</span>
+														</p>
+														<p class="text">主播魅力值<span class="num">+200</span></p>
+														<div class="more clearfix">
+															<div class="select">
+																<div class="hd">
+																	<input type="text" value="输入数量" class="text">
+																	<span class="btn"><i class="spr i-arrow-select"></i></span>
+																</div>
+																<div class="bd">
+																	<ul class="list">
+																		<li>
+																			<a href="javascript:;">
+																				<span class="num">10</span>
+																				 十全十美
+																			</a>
+																		</li>
+																		<li>
+																			<a href="javascript:;">
+																				<span class="num">33</span>
+																				 想要亲亲
+																			</a>
+																		</li>
+																		<li>
+																			<a href="javascript:;">
+																				<span class="num">66</span>
+																				 顺顺利利
+																			</a>
+																		</li>
+																		<li>
+																			<a href="javascript:;">
+																				<span class="num">199</span>
+																				 长长久久
+																			</a>
+																		</li>
+																		<li>
+																			<a href="javascript:;">
+																				<span class="num">521</span>
+																				 真的爱你
+																			</a>
+																		</li>
+																		<li>
+																			<a href="javascript:;">
+																				<span class="num">1214</span>
+																				 一生一世
+																			</a>
+																		</li>
+																	</ul>
+																</div>
+															</div>
+															<a href="#" class="btn-gift">赠送</a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li class="ele">
+											<a href="#" class="btn">
+												<span class="num ellipsis hide">10</span>
+												<p class="pic"><img src="../img/gift/gift-6.png" alt="6"></p>
+											</a>
+											<div class="gift-wrap">
+												<div class="gift-box clearfix">
+													<i class="spr i-arrow-gift"></i>
+													<p class="pic"><img src="../img/gift/gift-6.png" alt="6"></p>
+													<div class="info">
+														<p class="title">
+															<span class="name">666</span>
+															<span class="num">100T豆</span>
+														</p>
+														<p class="text">主播魅力值<span class="num">+200</span></p>
+														<div class="more clearfix">
+															<div class="select">
+																<div class="hd">
+																	<input type="text" value="输入数量" class="text">
+																	<span class="btn"><i class="spr i-arrow-select"></i></span>
+																</div>
+																<div class="bd">
+																	<ul class="list">
+																		<li>
+																			<a href="javascript:;">
+																				<span class="num">10</span>
+																				 十全十美
+																			</a>
+																		</li>
+																		<li>
+																			<a href="javascript:;">
+																				<span class="num">33</span>
+																				 想要亲亲
+																			</a>
+																		</li>
+																		<li>
+																			<a href="javascript:;">
+																				<span class="num">66</span>
+																				 顺顺利利
+																			</a>
+																		</li>
+																		<li>
+																			<a href="javascript:;">
+																				<span class="num">199</span>
+																				 长长久久
+																			</a>
+																		</li>
+																		<li>
+																			<a href="javascript:;">
+																				<span class="num">521</span>
+																				 真的爱你
+																			</a>
+																		</li>
+																		<li>
+																			<a href="javascript:;">
+																				<span class="num">1214</span>
+																				 一生一世
+																			</a>
+																		</li>
+																	</ul>
+																</div>
+															</div>
+															<a href="#" class="btn-gift">赠送</a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li class="ele">
+											<a href="#" class="btn">
+												<span class="num ellipsis hide">10</span>
+												<p class="pic"><img src="../img/gift/gift-keng.png" alt="坑"></p>
+											</a>
+											<div class="gift-wrap ">
+												<div class="gift-box clearfix">
+													<i class="spr i-arrow-gift"></i>
+													<p class="pic"><img src="../img/gift/gift-keng.png" alt="坑"></p>
+													<div class="info">
+														<p class="title">
+															<span class="name">坑坑坑</span>
+															<span class="num">300T豆</span>
+														</p>
+														<p class="text">主播魅力值<span class="num">+300</span></p>
+														<div class="more clearfix">
+															<div class="select">
+																<div class="hd">
+																	<input type="text" value="输入数量" class="text">
+																	<span class="btn"><i class="spr i-arrow-select"></i></span>
+																</div>
+																<div class="bd">
+																	<ul class="list">
+																		<li>
+																			<a href="javascript:;">
+																				<span class="num">10</span>
+																				 十全十美
+																			</a>
+																		</li>
+																		<li>
+																			<a href="javascript:;">
+																				<span class="num">33</span>
+																				 想要亲亲
+																			</a>
+																		</li>
+																		<li>
+																			<a href="javascript:;">
+																				<span class="num">66</span>
+																				 顺顺利利
+																			</a>
+																		</li>
+																		<li>
+																			<a href="javascript:;">
+																				<span class="num">199</span>
+																				 长长久久
+																			</a>
+																		</li>
+																		<li>
+																			<a href="javascript:;">
+																				<span class="num">521</span>
+																				 真的爱你
+																			</a>
+																		</li>
+																		<li>
+																			<a href="javascript:;">
+																				<span class="num">1214</span>
+																				 一生一世
+																			</a>
+																		</li>
+																	</ul>
+																</div>
+															</div>
+															<a href="#" class="btn-gift">赠送</a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+								<div class="wait">
+									<i class="i-arrow-wait"></i>
+									<i class="spr i-time"></i>
+									<div class="text">
+										<span>等待</span>
+										<p class="time">09:00</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!--房间管理-->
+					<div class="site-room ui-dialog">
+						<div class="ui-dialog-hd">
+							<div class="con">
+								<h3 class="title">房间管理</h3>
+								<a href="javascript:;" class="btn-close"><i class="spr i-close font-hide">关闭</i></a>
+							</div>
+						</div>
+						<div class="ui-dialog-bd">
+							<div class="site-roome-mod">
+								<div class="mod-hd">
+									<i class="i-line"></i>
+									<div class="text">
+										<i class="i-mark"></i>
+										<p class="title">管理员<span class="num">（2/2）</span></p>
+									</div>
+									
+								</div>
+								<div class="mod-bd">
+									<div class="site-list">
+										<ul>
+											<li>
+												<p class="name">芈月小公主</p>
+												<p class="btn"><a href="#">取消管理员</a></p>
+											</li>
+											<li>
+												<p class="name">芈月小公主</p>
+												<p class="btn"><a href="#">取消管理员</a></p>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="site-roome-mod banned-mod">
+								<div class="mod-hd">
+									<i class="i-line"></i>
+									<div class="text">
+										<i class="i-mark"></i>
+										<p class="title">被禁言<span class="num">（12）</span></p>
+									</div>
+									
+								</div>
+								<div class="mod-bd">
+									<div class="site-list">
+										<ul>
+											<li class="banned"><!--被禁言addClass banned-->
+												<p class="name">芈月小公主</p>
+												<p class="time">2016.08.14</p>
+												<p class="btn"><a href="#">管理</a></p>
+											</li>
+											<li>
+												<p class="name">芈月小公主</p>
+												<p class="time">2016.08.14</p>
+												<p class="btn"><a href="#">取消禁言</a></p>
+											</li>
+											<li>
+												<p class="name">芈月小公主</p>
+												<p class="time">2016.08.14</p>
+												<p class="btn"><a href="#">取消禁言</a></p>
+											</li>
+											<li>
+												<p class="name">芈月小公主</p>
+												<p class="time">2016.08.14</p>
+												<p class="btn"><a href="#">取消禁言</a></p>
+											</li>
+											<li>
+												<p class="name">芈月小公主</p>
+												<p class="time">2016.08.14</p>
+												<p class="btn"><a href="#">取消禁言</a></p>
+											</li>
+											<li>
+												<p class="name">芈月小公主</p>
+												<p class="time">2016.08.14</p>
+												<p class="btn"><a href="#">取消禁言</a></p>
+											</li>
+											<li>
+												<p class="name">芈月小公主</p>
+												<p class="time">2016.08.14</p>
+												<p class="btn"><a href="#">取消禁言</a></p>
+											</li>
+											<li>
+												<p class="name">芈月小公主</p>
+												<p class="time">2016.08.14</p>
+												<p class="btn"><a href="#">取消禁言</a></p>
+											</li>
+											<li>
+												<p class="name">芈月小公主</p>
+												<p class="time">2016.08.14</p>
+												<p class="btn"><a href="#">取消禁言</a></p>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="side-box">
+					<div class="con">
+
+						<!--榜单-->
+						<div class="rank tabs">
+							<div class="rank-hd">
+								<ul class="tabs-nav">
+									<li class="active"><a href="#">VIP贡献周榜</a></li>
+									<li><a href="#">VIP贡献总榜</a></li>
+								</ul>
+							</div>
+							<div class="rank-bd tabs-con">
+								<div class="tabs-con-ele">
+									<ul class="rank-list">
+										<li class="duke">
+											<div class="pic">
+												<i class="spr i-duke num">2</i>
+												<img src="../img/temp/user.jpg" alt="">
+											</div>
+											<p class="name ellipsis">是快姨妹妹</p>
+											<p class="status"><i class="spr icon-duke font-hide">公爵</i></p>
+											<p class="num ellipsis">1231323434</p>
+										</li>
+										<li class="king">
+											<div class="pic">
+												<i class="spr i-king num">1</i>
+												<img src="../img/temp/user.jpg" alt="">
+											</div>
+											<p class="name ellipsis">是快姨妹妹</p>
+											<p class="status"><i class="spr icon-king font-hide">国王</i></p>
+											<p class="num ellipsis">1231323434</p>
+										</li>
+										<li class="viscont">
+											<div class="pic">
+												<i class="spr i-viscont num">3</i>
+												<img src="../img/temp/user.jpg" alt="">
+											</div>
+											<p class="name ellipsis">是快姨妹妹</p>
+											<p class="status"><i class="spr icon-viscont font-hide">子爵</i></p>
+											<p class="num ellipsis">1231323434</p>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<!--tips-->
+							<div class="tips-box">
+								<p class="text"><span class="key">雪姨姐姐</span>登上VIP周榜<span class="key">第3名</span></p>
+							</div>
+						</div>
+
+						<div class="side-remain">
+
+							<!--榜单列表-->
+							<div class="rank-box mod ">
+								<div class="rank-list">
+									<ul>
+										<li>
+											<p class="num">4</p>
+											<p class="pic"><img src="../img/temp/user.jpg" alt=""></p>
+											<div class="info">
+												<i class="spr icon-baron font-hide">男爵</i>
+												<p class="name ellipsis">小黄人6666</p>	
+												<p class="value ellipsis">2345</p>
+											</div>
+										</li>
+										<li>
+											<p class="num">5</p>
+											<p class="pic"><img src="../img/temp/user.jpg" alt=""></p>
+											<div class="info">
+												<i class="spr icon-baron font-hide">男爵</i>
+												<p class="name ellipsis">小黄人6666</p>	
+												<p class="value ellipsis">2345</p>
+											</div>
+										</li>
+										<li>
+											<p class="num">6</p>
+											<p class="pic"><img src="../img/temp/user.jpg" alt=""></p>
+											<div class="info">
+												<i class="spr icon-baron font-hide">男爵</i>
+												<p class="name ellipsis">小黄人6666</p>	
+												<p class="value ellipsis">2345</p>
+											</div>
+										</li>
+										<li>
+											<p class="num">7</p>
+											<p class="pic"><img src="../img/temp/user.jpg" alt=""></p>
+											<div class="info">
+												<i class="spr icon-baron font-hide">男爵</i>
+												<p class="name ellipsis">小黄人6666</p>	
+												<p class="value ellipsis">2345</p>
+											</div>
+										</li>
+										<li>
+											<p class="num">8</p>
+											<p class="pic"><img src="../img/temp/user.jpg" alt=""></p>
+											<div class="info">
+												<i class="spr icon-baron font-hide">男爵</i>
+												<p class="name ellipsis">小黄人6666</p>	
+												<p class="value ellipsis">2345</p>
+											</div>
+										</li>
+										<li>
+											<p class="num">9</p>
+											<p class="pic"><img src="../img/temp/user.jpg" alt=""></p>
+											<div class="info">
+												<i class="spr icon-baron font-hide">男爵</i>
+												<p class="name ellipsis">小黄人6666</p>	
+												<p class="value ellipsis">2345</p>
+											</div>
+										</li>
+										<li>
+											<p class="num">10</p>
+											<p class="pic"><img src="../img/temp/user.jpg" alt=""></p>
+											<div class="info">
+												<i class="spr icon-baron font-hide">男爵</i>
+												<p class="name ellipsis">小黄人6666</p>	
+												<p class="value ellipsis">2345</p>
+											</div>
+										</li>
+										<li>
+											<p class="num">11</p>
+											<p class="pic"><img src="../img/temp/user.jpg" alt=""></p>
+											<div class="info">
+												<i class="spr icon-baron font-hide">男爵</i>
+												<p class="name ellipsis">小黄人6666</p>	
+												<p class="value ellipsis">2345</p>
+											</div>
+										</li>
+										<li>
+											<p class="num">12</p>
+											<p class="pic"><img src="../img/temp/user.jpg" alt=""></p>
+											<div class="info">
+												<i class="spr icon-baron font-hide">男爵</i>
+												<p class="name ellipsis">小黄人6666</p>	
+												<p class="value ellipsis">2345</p>
+											</div>
+										</li>
+										<li>
+											<p class="num">13</p>
+											<p class="pic"><img src="../img/temp/user.jpg" alt=""></p>
+											<div class="info">
+												<i class="spr icon-baron font-hide">男爵</i>
+												<p class="name ellipsis">小黄人6666</p>	
+												<p class="value ellipsis">2345</p>
+											</div>
+										</li>
+										<li>
+											<p class="num">13</p>
+											<p class="pic"><img src="../img/temp/user.jpg" alt=""></p>
+											<div class="info">
+												<i class="spr icon-baron font-hide">男爵</i>
+												<p class="name ellipsis">小黄人6666</p>	
+												<p class="value ellipsis">2345</p>
+											</div>
+										</li>
+										<li>
+											<p class="num">13</p>
+											<p class="pic"><img src="../img/temp/user.jpg" alt=""></p>
+											<div class="info">
+												<i class="spr icon-baron font-hide">男爵</i>
+												<p class="name ellipsis">小黄人6666</p>	
+												<p class="value ellipsis">2345</p>
+											</div>
+										</li>
+										<li>
+											<p class="num">13</p>
+											<p class="pic"><img src="../img/temp/user.jpg" alt=""></p>
+											<div class="info">
+												<i class="spr icon-baron font-hide">男爵</i>
+												<p class="name ellipsis">小黄人6666</p>	
+												<p class="value ellipsis">2345</p>
+											</div>
+										</li>
+										<li>
+											<p class="num">13</p>
+											<p class="pic"><img src="../img/temp/user.jpg" alt=""></p>
+											<div class="info">
+												<i class="spr icon-baron font-hide">男爵</i>
+												<p class="name ellipsis">小黄人6666</p>	
+												<p class="value ellipsis">2345</p>
+											</div>
+										</li>
+										<li>
+											<p class="num">13</p>
+											<p class="pic"><img src="../img/temp/user.jpg" alt=""></p>
+											<div class="info">
+												<i class="spr icon-baron font-hide">男爵</i>
+												<p class="name ellipsis">小黄人6666</p>	
+												<p class="value ellipsis">2345</p>
+											</div>
+										</li>
+										<li>
+											<p class="num">13</p>
+											<p class="pic"><img src="../img/temp/user.jpg" alt=""></p>
+											<div class="info">
+												<i class="spr icon-baron font-hide">男爵</i>
+												<p class="name ellipsis">小黄人6666</p>	
+												<p class="value ellipsis">2345</p>
+											</div>
+										</li>
+										<li>
+											<p class="num">13</p>
+											<p class="pic"><img src="../img/temp/user.jpg" alt=""></p>
+											<div class="info">
+												<i class="spr icon-baron font-hide">男爵</i>
+												<p class="name ellipsis">小黄人6666</p>	
+												<p class="value ellipsis">2345</p>
+											</div>
+										</li>
+										<li>
+											<p class="num">13</p>
+											<p class="pic"><img src="../img/temp/user.jpg" alt=""></p>
+											<div class="info">
+												<i class="spr icon-baron font-hide">男爵</i>
+												<p class="name ellipsis">小黄人6666</p>	
+												<p class="value ellipsis">2345</p>
+											</div>
+										</li>
+										<li>
+											<p class="num">13</p>
+											<p class="pic"><img src="../img/temp/user.jpg" alt=""></p>
+											<div class="info">
+												<i class="spr icon-baron font-hide">男爵</i>
+												<p class="name ellipsis">小黄人6666</p>	
+												<p class="value ellipsis">2345</p>
+											</div>
+										</li>
+										<li>
+											<p class="num">13</p>
+											<p class="pic"><img src="../img/temp/user.jpg" alt=""></p>
+											<div class="info">
+												<i class="spr icon-baron font-hide">男爵</i>
+												<p class="name ellipsis">小黄人6666</p>	
+												<p class="value ellipsis">2345</p>
+											</div>
+										</li>
+										<li>
+											<p class="num">13</p>
+											<p class="pic"><img src="../img/temp/user.jpg" alt=""></p>
+											<div class="info">
+												<i class="spr icon-baron font-hide">男爵</i>
+												<p class="name ellipsis">小黄人6666</p>	
+												<p class="value ellipsis">2345</p>
+											</div>
+										</li>
+										<li>
+											<p class="num">13</p>
+											<p class="pic"><img src="../img/temp/user.jpg" alt=""></p>
+											<div class="info">
+												<i class="spr icon-baron font-hide">男爵</i>
+												<p class="name ellipsis">小黄人6666</p>	
+												<p class="value ellipsis">2345</p>
+											</div>
+										</li>
+									</ul>
+									<i class="placeholder"></i>
+								</div>
+								<div class="mod-ft">
+									<p class="btn">
+										<a href="javascript:;"><span>展开榜单</span><i class="spr i-arrow-rank"></i></a>
+									</p>
+								</div>
+							</div>
+
+							<!--聊天室-->
+							<div class="speak-box mod open">
+								<div class="speak-list">
+									<ul>
+										<li>
+											<div class="name">
+												<span>雪姨：</span>
+												<div class="set-box">
+													<p><a href="#">取消管理员</a></p>
+													<p><a href="#">禁言</a></p>
+												</div>
+											</div>
+											<div class="text">送给你一个么么哒！让我用土豪的方式感谢你！</div>
+										</li>
+										<li class="my">
+											<div class="name">
+												<span>我说：</span>
+												<div class="set-box">
+													<p><a href="#">设置管理员</a></p>
+													<p><a href="#">禁言</a></p>
+												</div>
+											</div>
+											<div class="text">再给我两分钟？</div>
+											
+										</li>
+										<li>
+											<div class="name">
+												<span>雪姨：</span>
+												<div class="set-box">
+													<p><a href="#">取消管理员</a></p>
+													<p><a href="#">禁言</a></p>
+												</div>
+											</div>
+											<div class="text">
+												送出
+												<span class="gift"><img src="../img/gift/gift-hua.png" alt="花"></span>
+												<span class="gift"><img src="../img/gift/gift-hua.png" alt="花"></span>
+												<span class="gift"><img src="../img/gift/gift-hua.png" alt="花"></span>
+												<span class="gift"><img src="../img/gift/gift-hua.png" alt="花"></span>
+											</div>
+										</li>
+										<li class="my">
+											<div class="name">
+												<span>我说：</span>
+												<div class="set-box">
+													<p><a href="#">取消管理员</a></p>
+													<p><a href="#">禁言</a></p>
+												</div>
+											</div>
+											<div class="text">
+												送出 <span class="gift"><img src="../img/gift/gift-xin.png" alt="心"> <em class="num">×2</em></span>
+											</div>
+										</li>
+										<li>
+											<div class="name">
+												<span>雪姨：</span>
+												<div class="set-box">
+													<p><a href="#">取消管理员</a></p>
+													<p><a href="#">禁言</a></p>
+												</div>
+											</div>
+											<div class="text">送给你一个么么哒！让我用土豪的方式感谢你！</div>
+										</li>
+										<li>
+											<div class="name">
+												<span>雪姨：</span>
+												<div class="set-box">
+													<p><a href="#">取消管理员</a></p>
+													<p><a href="#">禁言</a></p>
+												</div>
+											</div>
+											<div class="text">送给你一个么么哒！让我用土豪的方式感谢你！</div>
+										</li>
+										<li>
+											<div class="name">
+												<span>雪姨：</span>
+												<div class="set-box">
+													<p><a href="#">取消管理员</a></p>
+													<p><a href="#">禁言</a></p>
+												</div>
+											</div>
+											<div class="text">送给你一个么么哒！让我用土豪的方式感谢你！</div>
+										</li>
+										<li>
+											<div class="name">
+												<span>雪姨：</span>
+												<div class="set-box">
+													<p><a href="#">取消管理员</a></p>
+													<p><a href="#">禁言</a></p>
+												</div>
+											</div>
+											<div class="text">送给你一个么么哒！让我用土豪的方式感谢你！</div>
+										</li>
+										<li>
+											<div class="name">
+												<span>雪姨：</span>
+												<div class="set-box">
+													<p><a href="#">取消管理员</a></p>
+													<p><a href="#">禁言</a></p>
+												</div>
+											</div>
+											<div class="text">送给你一个么么哒！让我用土豪的方式感谢你！</div>
+										</li>
+										<li>
+											<div class="name">
+												<span>雪姨：</span>
+												<div class="set-box">
+													<p><a href="#">取消管理员</a></p>
+													<p><a href="#">禁言</a></p>
+												</div>
+											</div>
+											<div class="text">送给你一个么么哒！让我用土豪的方式感谢你！</div>
+										</li>
+										<li>
+											<div class="name">
+												<span>雪姨：</span>
+												<div class="set-box">
+													<p><a href="#">取消管理员</a></p>
+													<p><a href="#">禁言</a></p>
+												</div>
+											</div>
+											<div class="text">送给你一个么么哒！让我用土豪的方式感谢你！</div>
+										</li>
+										<li>
+											<div class="name">
+												<span>雪姨：</span>
+												<div class="set-box">
+													<p><a href="#">取消管理员</a></p>
+													<p><a href="#">禁言</a></p>
+												</div>
+											</div>
+											<div class="text">送给你一个么么哒！让我用土豪的方式感谢你！</div>
+										</li>
+										<li>
+											<div class="name">
+												<span>雪姨：</span>
+												<div class="set-box">
+													<p><a href="#">取消管理员</a></p>
+													<p><a href="#">禁言</a></p>
+												</div>
+											</div>
+											<div class="text">送给你一个么么哒！让我用土豪的方式感谢你！</div>
+										</li>
+										<li>
+											<div class="name">
+												<span>雪姨：</span>
+												<div class="set-box">
+													<p><a href="#">取消管理员</a></p>
+													<p><a href="#">禁言</a></p>
+												</div>
+											</div>
+											<div class="text">送给你一个么么哒！让我用土豪的方式感谢你！</div>
+										</li>
+										<li>
+											<div class="name">
+												<span>雪姨：</span>
+												<div class="set-box">
+													<p><a href="#">取消管理员</a></p>
+													<p><a href="#">禁言</a></p>
+												</div>
+											</div>
+											<div class="text">送给你一个么么哒！让我用土豪的方式感谢你！</div>
+										</li>
+										<li>
+											<div class="name">
+												<span>雪姨：</span>
+												<div class="set-box">
+													<p><a href="#">取消管理员</a></p>
+													<p><a href="#">禁言</a></p>
+												</div>
+											</div>
+											<div class="text">送给你一个么么哒！让我用土豪的方式感谢你！</div>
+										</li>
+										<li>
+											<div class="name">
+												<span>雪姨：</span>
+												<div class="set-box">
+													<p><a href="#">取消管理员</a></p>
+													<p><a href="#">禁言</a></p>
+												</div>
+											</div>
+											<div class="text">送给你一个么么哒！让我用土豪的方式感谢你！</div>
+										</li>
+										<li>
+											<div class="name">
+												<span>雪姨：</span>
+												<div class="set-box">
+													<p><a href="#">取消管理员</a></p>
+													<p><a href="#">禁言</a></p>
+												</div>
+											</div>
+											<div class="text">送给你一个么么哒！让我用土豪的方式感谢你！</div>
+										</li>
+										<li>
+											<div class="name">
+												<span>雪姨：</span>
+												<div class="set-box">
+													<p><a href="#">取消管理员</a></p>
+													<p><a href="#">禁言</a></p>
+												</div>
+											</div>
+											<div class="text">送给你一个么么哒！让我用土豪的方式感谢你！</div>
+										</li>
+										<li>
+											<div class="name">
+												<span>雪姨：</span>
+												<div class="set-box">
+													<p><a href="#">取消管理员</a></p>
+													<p><a href="#">禁言</a></p>
+												</div>
+											</div>
+											<div class="text">送给你一个么么哒！让我用土豪的方式感谢你！</div>
+										</li>
+										<li>
+											<div class="name">
+												<span>雪姨：</span>
+												<div class="set-box">
+													<p><a href="#">取消管理员</a></p>
+													<p><a href="#">禁言</a></p>
+												</div>
+											</div>
+											<div class="text">送给你一个么么哒！让我用土豪的方式感谢你！</div>
+										</li>
+										<li>
+											<div class="name">
+												<span>雪姨：</span>
+												<div class="set-box">
+													<p><a href="#">取消管理员</a></p>
+													<p><a href="#">禁言</a></p>
+												</div>
+											</div>
+											<div class="text">送给你一个么么哒！让我用土豪的方式感谢你！</div>
+										</li>
+										<li>
+											<div class="name">
+												<span>雪姨：</span>
+												<div class="set-box">
+													<p><a href="#">取消管理员</a></p>
+													<p><a href="#">禁言</a></p>
+												</div>
+											</div>
+											<div class="text">送给你一个么么哒！让我用土豪的方式感谢你！</div>
+										</li>
+									</ul>
+									<i class="placeholder"></i>
+								</div>
+								<div class="mod-ft">
+									<div class="message">
+										<div class="praise">
+											<a href="#"><i class="spr i-love font-hide">赞</i></a>
+											<p class="num ellipsis">9974</p>
+										</div>
+										<div class="message-input">
+											<p class="message-hint">我也来说说</p><!--文本框获取焦点后隐藏，失去焦点显示-->
+											<textarea class="textarea"></textarea>
+											<input type="button" value="发送" class="btn"><!--禁用 addClass dis-->
+											<p class="hint">0</p><!--超出字符显示-->
+										</div>
+									</div>
+								</div>
+								<!--tips-->
+								<div class="tips-box">
+									<p class="text">你成为该房间的管理员</p>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+				</div>			
+			</div>
+
+		</div>
+	</div>
+
+</div>
+<!--pop-->
+	<div class="ui-pop">
+		<div class="ui-pop-hd"><a href="javascript:;" class="btn-close">×</a></div>
+		<div class="ui-pop-bd clearfix">
+			<div class="info-mok">
+				<i class="spr i-pop-ok"></i>
+				<p class="title">赠送成功！</p>
+				<p class="text">主播魅力值+50</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="ui-pop">
+		<div class="ui-pop-hd"><a href="javascript:;" class="btn-close">×</a></div>
+		<div class="ui-pop-bd clearfix">
+			<div class="info-mok">
+				<i class="spr i-pop-notice"></i>
+				<p class="title">赠送失败！</p>
+				<p class="text">当前余额不足，请充值</p>
+				<p class="more">
+					<a href="#" class="btn">充值</a>
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<!--扩展可删除-->
+	<div class="gsl-rank">
+		<style>
+		.gsl-rank{ margin-top: 20px; text-align: center;}
+		.gsl-rank a{ display: inline-block; padding: 5px 10px; color: #fff; background: #29366d; margin: 0 10px;}
+		</style>
+		<a href="javascript:;" class="size big">变大</a>
+		<a href="javascript:;" class="skin yellow">换肤</a>
+		<a href="javascript:;" class="tips">tips</a>
+	</div>
+<script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="../js/common.js"></script><!--js效果仅供页面部分交互体验-->
+</body>
+</html>

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>funlux</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/normalize.css">
+<link rel="stylesheet" href="css/main.css">
+<!--[if lt IE 8]>
+    <link href="css/bootstrap-ie7.css" rel="stylesheet">
+<![endif]-->
+<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      	<script src="js/vendor/html5shiv.js" defer="true"></script>
+        <script src="js/vendor/respond.min.js" defer="true"></script>
+   	    <![endif]-->
+</head>
+<body>
+<!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]--> 
+
+<!-- Add your site or application content here -->
+<header >
+  <nav class="navbar navbar-default " role="navigation">
+    <div class="container-fluid warp clearfix">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <!--wap login and car start-->
+        <button type="button" class="login-sm visible-xs" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2"></button>
+        <a class="car-sm visible-xs" href="#"> <span>10</span></a>
+        <!--wap login and car end-->
+         <h1><a  class="logo" href="index.html" title="funlux">funlux</a></h1>
+        <p class=" hidden-sm hidden-xs l"><img src="images/bg/slogan.jpg" class="img-responsive"></p>
+         </div>
+      <div class="navbar-right clearfix">
+        <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav " id="webmenu">
+            <li><a href="index.html">首页</a></li>
+            <li><a href="product.html">产品</a></li>
+            <li><a href="news.html">资讯</a></li>
+            <li><a href="Service.html">服务支持</a></li>
+          </ul>
+        </div>
+        <div class="collapse navbar-collapse myorder" id="bs-example-navbar-collapse-2">
+          <ul class="nav navbar-nav" >
+            <li><a href="Myorder.html">我的订单</a></li>
+            <li><a href="#">退出</a></li>
+          </ul>
+        </div>
+        <!--web login and car start-->
+       <div class="login hidden-xs dn" id="loginnav"><a href="login.html">登陆</a> | <a href="Registration.html">注册</a></div>
+        <div class="dropdown login-ok  hidden-xs" id="login-ok"> <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Sally _Guo<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="Myorder.html">个人中心</a></li>
+            <li><a href="#">退出</a></li>
+          </ul>
+        </div>
+        <div class="car hidden-xs" id="carnav"><a href="car.html">购物车</a>
+        <div class="top-car-box">
+            	<span class="caret"></span>
+            	<div class="no-car ">您的购物车中没有商品</div>
+                <div  class="has-car">
+                <ul class="addcar-list">
+                	<li class="clearfix">
+                    <a class="img" href="#" target="_blank"><img src="images/uploads/pro04.jpg"></a>
+                    <div class="text">
+                    <a href="#" target="_blank">Funlux 商铺系列 </a>
+                    <p>720P小型数字高清监控套装</p>
+                    <p><span>1</span>*<strong>¥399 </strong></p>
+                    </div>
+                    <span class="close"></span>
+                    </li>
+                    <li class="clearfix">
+                    <a class="img" href="#" target="_blank"><img src="images/uploads/pro03.jpg"></a>
+                    <div class="text">
+                    <a href="#" target="_blank">Funlux 商铺系列 </a>
+                    <p>720P小型数字高清监控套装</p>
+                    <p><span>1</span>*<strong>¥399 </strong></p>
+                    </div>
+                    <span class="close"></span>
+                    </li>
+                </ul>
+                <div class="summary">
+                	<p>共 <span>4</span> 件商品，合计：<strong>￥5166</strong></p>
+                    <p><button class="buy-btn" type="button" >去结算</button></p>
+                </div>
+                </div>
+            </div>
+        </div>
+        <!--web login and car end-->
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="bggray" id="content" parameter="reg">
+  <div class="warp container-fluid">
+    <div class="registration-md row">
+      <div class="col-sm-2 hidden-xs"></div>
+      <div class="col-sm-8 col-xs-12">
+        <div class="row registration-box">
+          <div class="col-sm-7 col-xs-12">
+          <form onSubmit="return check();">
+            <h2>注册您的Funlux 账户</h2>
+            <p>
+              <input type="text" value="用户名" placeholder="用户名" id="firstname" onFocus="checkuname();" onBlur="checkuser(this.value);" class="f-text" >
+                <span id="unames" class="ts"></span>
+            </p>
+            <p>
+              <input type="text" value="邮箱" placeholder="邮箱" id="email_address" onFocus="checkmails();" onBlur="checkmail();" class="f-text" >
+              <span id="mailname" class="ts"></span>
+            </p>
+            <p>
+              <input type="text" id="password" value="设置密码" placeholder="设置密码" onFocus="javascript:checkpasswords();" onBlur="javascript:checkpasswordss(this.value);" onKeyUp="chkpwd(this)"    class="f-text">
+              <span id="passwname" class="ts"></span>
+            </p>
+            <p>
+              <input type="text" id="confirmation" value="确认密码" placeholder="确认密码" onFocus="javascript:checkpasswords2();" onBlur="javascript:checkpassword2(this.value);"  class="f-text">
+              <span id="passname2" class="ts"></span>
+            </p>
+            <p>
+              <input type="text" value="验证码" placeholder="验证码"  onfocus="if(this.value=='验证码'){this.value=''}'';" onBlur="if(this.value==''){this.value='验证码'}" class="f-text yzm" >
+              <span id="mailname"></span>
+              <span><img src="images/uploads/yz.jpg" width="91" height="34"></span><a class="yz-btn">换一换</a></p>
+            <p><a href="#" target="_blank">Funlux 用户协议</a></p>
+            <p><input type="submit" value="同意协议并立即注册" class="registration-btn"></p>
+              </form>
+          </div>
+          <div class="col-sm-5 col-xs-12">
+          	<p>已有账户？<a href="login.html" class="lg"><span class="visible-xs">></span>立即登录</a></p>
+            <p>使用合作账号登陆</p>
+            <p class="ico-registration">
+            	<a href="#" target="_blank" class="qq"></a><a href="#" target="_blank" class="sina"></a><a href="#" target="_blank" class="zfb"></a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2 hidden-xs"></div>
+    </div>
+  </div>
+</div>
+<footer class="foot">
+  <div class="warp">
+    <div class="container-fluid">
+      <div class=" row ">
+        <div class="col-sm-8 col-xs-12">
+          <ul class="link-nav">
+        	<li>
+            	<h3>Funlux产品 <span class="visible-xs foot-btn"></span></h3>
+                <div class="link-con">
+                <a href="#" target="_blank" class="clearfix"><span class="visible-xs"><img src="images/uploads/pro01.png" class="img-responsive" alt="pro1"></span>管家套装系列</a>
+                <a href="#" target="_blank" class="clearfix"><span class="visible-xs"><img src="images/uploads/pro02.png" class="img-responsive" alt="pro2"></span>范跑跑系列</a>
+                </div>
+            </li>
+            <li>
+            	<h3>帮助中心<span class="visible-xs foot-btn"></span></h3>
+                <div class="link-con">
+                <a href="#" target="_blank">购物指南</a>
+                <a href="#" target="_blank">配送方式</a>
+                <a href="#" target="_blank">支付方式</a>
+                <a href="#" target="_blank">常见问题</a>
+                </div>
+            </li>
+            <li>
+            	<h3>售后服务<span class="visible-xs foot-btn"></span></h3>
+                <div class="link-con">
+                <a href="#" target="_blank">软件下载</a>
+                <a href="#" target="_blank">终身质保</a>
+                <a href="#" target="_blank">退换货政策</a>
+                <a href="#" target="_blank">退换货流程</a>
+                </div>
+            </li>
+            <li>
+            	<h3>关于我们<span class="visible-xs foot-btn"></span></h3>
+                <div class="link-con">
+                <a href="#" target="_blank">了解我们</a>
+                <a href="#" target="_blank">品牌介绍</a>
+                <a href="#" target="_blank">加入我们</a>
+
+                <a href="#" target="_blank">商务合作</a>
+                </div>
+            </li>
+            <li class="end">
+            	<h3> 相关链接<span class="visible-xs foot-btn"></span></h3>
+                <div class="link-con">
+                    <a href="http://www.zmodo.com.cn/" target="_blank">智美达集团</a>
+                    <a href="http://www.meshare.com/cloud/" target="_blank">Meshare云服务</a>
+                </div>
+            </li>
+        </ul>
+        </div>
+        <div class="col-sm-4 col-xs-12">
+          <div class="row">
+            <div class="col-sm-4 col-xs-12">
+              <div class="about-img">
+                <p class="ico-img clearfix"><a href="#" target="_blank" class="sina" title="新浪微博"></a><a href="#" target="_blank" class="tx" title="腾讯微博"></a><a href="#" target="_blank" class="youku" title="优酷视频"></a></p>
+                <p class="erw"><img src="images/bg/erw.png" class="img-responsive" alt="二维码"></p>
+                <p class="text"><strong>8000</strong>人在关注Funlux微信</p>
+              </div>
+            </div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-7 col-xs-12">
+              <div  class="language">
+                <ul class="hidden-xs hidden-sm">
+                  <li class="t"><a href="#" class="e">English</a></li>
+                  <li><a href="#" class="c">中文</a></li>
+                </ul>
+                <p class="xs-language hidden-md hidden-lg"><a href="#" class="e">English</a></p>
+              </div>
+              <div class="info">
+            	<h3>400-850-2238</h3>
+                <p>周一至周五 9:00-18:00<br />周六至周日 9:00-18:00<br />（仅收市话费）</p>
+               <div class="d-email clearfix">
+                   <input type="text">
+                   <button>邮件订阅</button>
+               </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="copyright">Copyright &copy; 2013  All Rights Reserved  深圳市智博壹品科技有限公司  版权所有<span>粤ICP备12072898号</span></p>
+  </div>
+</footer>
+<div class="toolright hidden-xs" id="goTop"> <a class="totop" title="返回顶部"><img src="images/bg/top.png" class="img-responsive" alt="返回顶部"></a> <a href="#" target="_blank" title="在线客服"><img src="images/bg/online2.png" class="img-responsive" alt="在线客服"></a> </div>
+<script src="js/vendor/jquery.1.8.2.min.js"></script>
+<script src="js/vendor/bootstrap.js"></script> 
+<script src="js/main.js"></script>
+
+</body>
+</html>
